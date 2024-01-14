@@ -35,7 +35,23 @@ Starts the development server and opens the app on iOS.
 * [React Native](https://reactnative.dev/) - The web framework used
 * [Expo](https://expo.io/) - Tool for building React Native applications
 * [Expo Router](https://docs.expo.dev/router/introduction/) - Routing and navigation for React Native apps
-* [Nativewind v4]
+* [Nativewind v4](https://www.nativewind.dev/v4/overview)
+
+## What you get
+
+* Expo Router up and running
+* Nativewind v4 up and running
+* ESLint and Prettier configurations
+* `cn` utility function for conditional styling
+
+## What you don't get
+
+* State management
+  * Jotai or/and Zustand are recommended
+* i18n
+* Testing
+* CI/CD
+* Semantic release
 
 ## Authors
 
@@ -47,3 +63,4 @@ Some projects that helped me along the way:
 
 * [React Native Reusables](https://github.com/mrzachnugent/react-native-reusables)
 * [expo-sdk-50-expo-router-v3-nativewind-v4](https://github.com/bidah/expo-sdk-50-expo-router-v3-nativewind-v4)
+* [Tamagui Expo Template](https://github.com/ivopr/tamagui-expo)
