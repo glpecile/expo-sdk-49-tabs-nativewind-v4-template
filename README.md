@@ -1,6 +1,6 @@
-# Not another expo boilerplate template starter kit
+# Not another expo template
 
-This is a brief description of what this project is about.
+This is a React Native boilerplate template starter kit for Expo projects.
 
 ## Commands
 
@@ -33,9 +33,9 @@ Starts the development server and opens the app on iOS.
 ## Built With
 
 * [React Native](https://reactnative.dev/) - The web framework used
-* [Expo](https://expo.io/) - Tool for building React Native applications
-* [Expo Router](https://docs.expo.dev/router/introduction/) - Routing and navigation for React Native apps
-* [Nativewind v4](https://www.nativewind.dev/v4/overview)
+* [Expo SDK49](https://expo.io/) - Tool for building React Native applications
+* [Expo Router v2](https://docs.expo.dev/router/introduction/) - Routing and navigation for React Native apps
+* [Nativewind v4](https://www.nativewind.dev/v4/overview) - Port of Utility-first CSS framework, TailwindCSS, for React Native
 
 ## What you get
 
@@ -46,9 +46,8 @@ Starts the development server and opens the app on iOS.
 
 ## What you don't get
 
-* State management
-  * Jotai or/and Zustand are recommended
-* i18n
+* State management ([Jotai](https://jotai.org/docs/introduction) or/and [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) are recommended)
+* i18n (see [expo docs](https://docs.expo.dev/guides/localization/#complete-example))
 * Testing
 * CI/CD
 * Semantic release
