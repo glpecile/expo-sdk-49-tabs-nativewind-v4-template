@@ -1,0 +1,20 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore dependencies:
+node_modules
+
+# Ignore Expo files:
+.expo
+
+# Ignore generated files:
+*.js.flow
+*.d.ts
+
+# Ignore all log files:
+*.log
+
+# Ignore the iOS and Android folders:
+ios
+android

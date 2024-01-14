@@ -1,11 +1,9 @@
-import { View, Text } from "react-native";
+import { Text, View } from 'react-native';
 
 export default function ModalScreen() {
-	return (
-		<View className="flex-1 justify-center items-center">
-			<Text className="text-3xl">
-				Not a Modal
-			</Text>
-		</View>
-	);
+  return (
+    <View className="flex-1 justify-center items-center">
+      <Text className="text-3xl text-foreground">Not a Modal</Text>
+    </View>
+  );
 }
